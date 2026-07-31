@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.opentrade.io/developers/blockchain-protocol
+standards:
+- id: erc-20
+  conforms: true
+  evidence: Vault tokens and liquidity assets (USDC/USDT/EURC) are ERC-20 tokens; protocol built on the ERC-20 standard.
+  source: https://docs.opentrade.io/developers/blockchain-protocol
+- id: erc-4626
+  conforms: true
+  evidence: Yield-bearing vaults implement the ERC-4626 tokenized vault standard (an extension of ERC-20).
+  source: https://docs.opentrade.io/developers/blockchain-protocol
+- id: eip-4626
+  conforms: true
+  evidence: Protocol vaults follow EIP-4626 as published by Ethereum.org.
+  source: https://docs.opentrade.io/developers/blockchain-protocol
+- id: circle-perimeter
+  conforms: true
+  evidence: Protocol is a fork of Perimeter, Circle Research's open-source stablecoin lending protocol, modified by Open Trade Technology Ltd.
+  source: https://docs.opentrade.io/developers/blockchain-protocol
+- id: oauth2
+  conforms: false
+  evidence: No public OpenAPI/OAuth surface; REST API auth documentation is gated behind an account manager.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public error schema available to confirm application/problem+json.
+compliance_program:
+  regulated: true
+  notes: >-
+    Borrowers are bankruptcy-remote SPVs overseen by FCA-regulated Five Sigma;
+    lenders are KYC'd institutions. Independent protocol code audits are
+    published. This is a regulatory/legal framework rather than a named
+    infosec certification (SOC 2 / ISO 27001) program.
+  source: https://docs.opentrade.io/developers/blockchain-protocol

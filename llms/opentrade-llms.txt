@@ -1,0 +1,75 @@
+# OpenTrade Docs
+
+## OpenTrade Docs (V5)
+
+- [Welcome to OpenTrade](https://docs.opentrade.io/welcome-to-opentrade.md): Institutional stablecoin lending and yield platform for tokenized financial assets, treasury management, and embedded finance.
+- [Supported Digital Assets](https://docs.opentrade.io/welcome-to-opentrade/supported-digital-assets.md): A list of the digital assets we currently support lending activity with through the OpenTrade platform.
+- [Supported Blockchain Networks](https://docs.opentrade.io/welcome-to-opentrade/supported-blockchain-networks.md): A list of the Blockchain Networks we currently support.
+- [Supported Digital Wallets](https://docs.opentrade.io/welcome-to-opentrade/supported-digital-wallets.md): A list of the Digital Wallets we currently support for use with the OpenTrade Platform.
+- [Platform Overview](https://docs.opentrade.io/developers/platform-overview.md): Learn more about the technology behind OpenTrade.
+- [Web Application](https://docs.opentrade.io/developers/web-application.md): Learn more about the OpenTrade Web Application
+- [Integrations (APIs)](https://docs.opentrade.io/developers/integrations-apis.md): OpenTrade provides a protocol and REST APIs for seamless integrations and reporting.
+- [Blockchain Protocol](https://docs.opentrade.io/developers/blockchain-protocol.md): Learn more about the blockchain protocol underpinning OpenTrade products.
+- [Contract Addresses](https://docs.opentrade.io/developers/contract-addresses.md): View the key mainnet contract addresses and blockexplorer links.
+- [Code Audits](https://docs.opentrade.io/developers/code-audits.md): Please find below the latest version of our independent protocol audits.
+- [Getting Started](https://docs.opentrade.io/getting-started/getting-started.md): Learn to connect to OpenTrade and get ready to invest.
+- [Onboarding](https://docs.opentrade.io/getting-started/onboarding.md): Learn more about the onboarding process and eligibility requirements.
+- [Eligibility Requirements](https://docs.opentrade.io/getting-started/onboarding/eligibility-requirements.md): Learn more about who is eligible (and who is not) to use OpenTrade.
+- [How to Invest in a Vault](https://docs.opentrade.io/getting-started/how-to-invest-in-a-vault.md): Learn more about how to make loans on the OpenTrade platform.
+- [How to Make a Withdrawal](https://docs.opentrade.io/getting-started/how-to-make-a-withdrawal.md): Learn more about how to withdraw loan principal from the USD Money Market Fund Vault
+- [Investment via Transfer Guide](https://docs.opentrade.io/getting-started/investment-via-transfer-guide.md): Learn how to use the Investment via Transfer process with OpenTrade
+- [Fireblocks Users](https://docs.opentrade.io/getting-started/fireblocks-users.md): Guides for using Fireblocks with the OpenTrade Platform
+- [End-to-End](https://docs.opentrade.io/getting-started/fireblocks-users/end-to-end.md): This guide describes the end-to-end set up, investment, and withdrawal process for Fireblocks users.
+- [Whitelisting Contracts](https://docs.opentrade.io/getting-started/fireblocks-users/whitelisting-contracts.md): Learn how to whitelist OpenTrade contract addresses in Fireblocks
+- [Configuring Your Policies](https://docs.opentrade.io/getting-started/fireblocks-users/configuring-your-policies.md): Learn how to configure your Fireblocks TAP to interact with OpenTrade
+- [Connecting via WalletConnect](https://docs.opentrade.io/getting-started/fireblocks-users/connecting-via-walletconnect.md): Learn how to connect Fireblocks to OpenTrade via WalletConnect
+- [Listing a Vault Token](https://docs.opentrade.io/getting-started/fireblocks-users/listing-a-vault-token.md): Learn how to list vault tokens in your Fireblocks workspace and wallets.
+- [Making an Investment](https://docs.opentrade.io/getting-started/fireblocks-users/making-an-investment.md): Learn how to make an investment in OpenTrade using Fireblocks
+- [Making a Withdrawal Request](https://docs.opentrade.io/getting-started/fireblocks-users/making-a-withdrawal-request.md): Learn how to make a Withdrawal Request with Fireblocks
+- [Safe{Wallet} Users](https://docs.opentrade.io/getting-started/safe-wallet-users.md): View user guides for connecting and interacting with OpenTrade via a Safe{Wallet}
+- [Product Overview](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview.md): Learn more about how OpenTrade's Stablecoin Yield Products work
+- [Vaults](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/vaults.md): Learn more about the different vault types in OpenTrade's Treasury Management & Yield Product.
+- [Key Parties](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/key-parties.md): Learn more about key parties involved in the Treasury Management Product
+- [Loan Collateral](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/loan-collateral.md): Learn more about the use of collateral in the stablecoin yield vaults.
+- [Vault Tokens](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/vault-tokens.md): Learn more about Vault Tokens and their role in OpenTrade's Treasury Management & Yield Product.
+- [Exchange Rates](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/exchange-rates.md): Learn more about the exchange rate between vault tokens and liquidity assets (eg. stablecoins)
+- [Calendar & Business Days](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/calendar-and-business-days.md): Learn more about calendar and business days.
+- [Interest Rate & Fees](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/interest-rate-and-fees.md): Learn more about interest rates and fees for Flexible Term USD Vaults.
+- [Understanding APY vs. APR](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/understanding-apy-vs.-apr.md): While APR (Annual Percentage Rate) and APY (Annual Percentage Yield) sound similar, they are used for different types of products and measure different things.
+- [Legal](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/legal.md): Learn more about the legal framework behind OpenTrade and view important legal agreements like our Terms & Conditions and Privacy Policy.
+- [Bankruptcy Remote Structure](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/legal/bankruptcy-remote-structure.md): More detail on the bankruptcy remote structure behind OpenTrade products.
+- [Master Lending Agreement](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/legal/master-lending-agreement.md): Learn more about the Master Lending Agreement.
+- [Loan Confirmations](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/legal/loan-confirmations.md): Learn more about Loan Confirmations.
+- [Security Trust Deed](https://docs.opentrade.io/stablecoin-yield-vaults/product-overview/legal/security-trust-deed.md): Learn more about the security interest Lenders have in collateral for loans made via OpenTrade's Treasury Management Product.
+- [Stablecoin Yield Vaults](https://docs.opentrade.io/stablecoin-yield-vaults/stablecoin-yield-vaults.md): Learn more about the range of Stablecoin Yield Vaults offered on OpenTrade
+- [Prime+ Vault](https://docs.opentrade.io/stablecoin-yield-vaults/stablecoin-yield-vaults/prime+-vault.md): Let clients who seek to earn attractive yield on their balances while maintaining the flexibility to access their funds at any time.
+- [USDC Money Market Fund Fidelity (V5) Vault](https://docs.opentrade.io/stablecoin-yield-vaults/stablecoin-yield-vaults/usdc-money-market-fund-fidelity-v5-vault.md): Exclusively backed by investments in the Fidelity Institutional Liquidity USD Fund, USD, and USDC/USDT.
+- [EURC Money Market Fund Fidelity (V4) Vault](https://docs.opentrade.io/stablecoin-yield-vaults/stablecoin-yield-vaults/eurc-money-market-fund-fidelity-v4-vault.md): Exclusively backed by investments in the Fidelity Institutional Liquidity EUR Fund, EUR, and EURC.
+- [EURC Collateralised Loan Obligations Vault](https://docs.opentrade.io/stablecoin-yield-vaults/stablecoin-yield-vaults/eurc-collateralised-loan-obligations-vault.md)
+- [Sierra LP Strategy Vault](https://docs.opentrade.io/stablecoin-yield-vaults/stablecoin-yield-vaults/sierra-lp-strategy-vault.md): Addressing the Demand for High-Yield, Accessible and Managed DeFi Yield Strategies.
+- [Introduction](https://docs.opentrade.io/stablecoin-staking-vaults/introduction.md): OpenTrade Stablecoin Staking Yield, powered by Figment
+- [How it works](https://docs.opentrade.io/stablecoin-staking-vaults/how-it-works.md): Learn more about OpenTrade Stablecoin Staking Yield, powered by Figment
+- [Interest Accrual](https://docs.opentrade.io/stablecoin-staking-vaults/how-it-works/interest-accrual.md): Learn more about interest accrual, exchange rates, and fees for OpenTrade Stablecoin Staking Yield, powered by Figment
+- [Fees](https://docs.opentrade.io/stablecoin-staking-vaults/how-it-works/fees.md): Learn more about fees for OpenTrade Stablecoin Staking Yield, powered by Figment
+- [Investments](https://docs.opentrade.io/stablecoin-staking-vaults/how-it-works/investments.md)
+- [Withdrawals](https://docs.opentrade.io/stablecoin-staking-vaults/how-it-works/withdrawals.md)
+- [FAQ](https://docs.opentrade.io/stablecoin-staking-vaults/faq.md): Read our Frequently Asked Questions for OpenTrade Stablecoin Staking Yield, powered by Figment
+- [Platform Terms of Service](https://docs.opentrade.io/terms-and-conditions/platform-terms-of-service.md): These Terms of Service govern use of the OpenTrade Platform.
+- [Privacy & Cookie Policies](https://docs.opentrade.io/terms-and-conditions/privacy-and-cookie-policies.md): Below is our Privacy & Cookie Policies that applies to your use of OpenTrade.
+- [Políticas de Privacidad y Cookies](https://docs.opentrade.io/terms-and-conditions/privacy-and-cookie-policies/politicas-de-privacidad-y-cookies.md): La política de privacidad de Open Trade Technology Ltd y OpenTrade SPC (conjuntamente, "OpenTrade")
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.opentrade.io/welcome-to-opentrade.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

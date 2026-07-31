@@ -1,0 +1,32 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.opentrade.io/
+versioning:
+  scheme: protocol-version
+  current: V5
+  notes: >-
+    OpenTrade documents its blockchain protocol by major version. V5 and V4 are
+    marked CURRENT, V3 UPGRADED, with V2 retained. Vault contracts are versioned
+    per release (e.g. USDC Money Market Fund Fidelity V5, EURC MMF Fidelity V4).
+  docs: https://docs.opentrade.io/developers/code-audits
+status_page: https://status.opentrade.io/
+status_page_monitors:
+- Web App (app.open-trade.io)
+- REST APIs (Ethereum, Avalanche) - vaults, account, withdrawals
+- GraphQL API
+- Website (opentrade.io)
+- Documentation (docs.opentrade.io)
+- Third-party services (Circle)
+code_audits:
+  url: https://docs.opentrade.io/developers/code-audits
+  notes: >-
+    Independent third-party protocol security audits are performed before any
+    material change or upgrade to production; audit reports published for LYT
+    protocol and V2-V5.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No formal RFC 8594 deprecation/Sunset policy published; protocol upgrades tracked by major version.
+sla:
+  url: null
+deprecated_operations: []

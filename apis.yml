@@ -1,8 +1,33 @@
 aid: opentrade
 name: Opentrade
-description: Opentrade is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OpenTrade is an institutional-grade platform for stablecoin lending and yield
+  products, enabling fintechs, neobanks, crypto exchanges, custodians, stablecoin
+  issuers, and treasury managers to offer white-labeled and embedded yield on
+  USDC, USDT, and EURC without off-ramping. The platform pairs a cloud web
+  application and REST/GraphQL APIs with an on-chain blockchain protocol (a fork
+  of Circle Research's Perimeter, built on the ERC-20 and ERC-4626 standards and
+  deployed on Ethereum, Avalanche, and Plume) that issues yield-bearing vault
+  tokens backed by real-world assets such as money market funds, US Treasury
+  bills, corporate bonds, CLOs, and trade finance. OpenTrade combines this
+  technology with a legal and operational framework (bankruptcy-remote SPVs,
+  master lending agreements, and FCA-regulated oversight) so partners can deliver
+  safe, compliant, scalable yield to KYC'd institutions and businesses. OpenTrade
+  is developed by Open Trade Technology Ltd and is backed by Y Combinator.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/MEWZZLzLjqClFoVpnfeN9dKWhO4.png
 url: https://raw.githubusercontent.com/api-evangelist/opentrade/refs/heads/main/apis.yml
+humanURL: https://www.opentrade.io/
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +36,78 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Stablecoin
+- Yield
+- Lending
+- Treasury Management
+- Embedded Finance
+- Tokenization
+- Real World Assets
+- DeFi
+- Fintech Infrastructure
+- Blockchain
+- Fixed Income
+apis:
+- name: OpenTrade REST API
+  description: >-
+    Read-only REST API to query platform data, vaults, accounts, and
+    transactions (current and historical) for building UIs, reporting, and
+    reconciliation with middle/back-office systems. Full endpoint and
+    authentication documentation is available on request via an account manager.
+  humanURL: https://docs.opentrade.io/developers/integrations-apis
+  baseURL: https://docs.opentrade.io/developers/integrations-apis
+  properties:
+  - type: Documentation
+    url: https://docs.opentrade.io/developers/integrations-apis
+  - type: Blockchain
+    url: https://docs.opentrade.io/developers/blockchain-protocol
+common:
+- type: DomainSecurity
+  url: security/opentrade-domain-security.yml
+- type: Website
+  url: https://www.opentrade.io/
+- type: Portal
+  url: https://app.open-trade.io
+- type: Documentation
+  url: https://docs.opentrade.io/
+- type: APIReference
+  url: https://docs.opentrade.io/developers/integrations-apis
+- type: GettingStarted
+  url: https://docs.opentrade.io/getting-started/getting-started
+- type: Blog
+  url: https://www.opentrade.io/blog
+- type: GitHubOrganization
+  url: https://github.com/opentrade-io
+- type: StatusPage
+  url: https://status.opentrade.io/
+- type: Login
+  url: https://app.open-trade.io
+- type: Support
+  url: https://www.opentrade.io/contact
+- type: TermsOfService
+  url: https://docs.opentrade.io/terms-and-conditions/platform-terms-of-service
+- type: PrivacyPolicy
+  url: https://docs.opentrade.io/terms-and-conditions/privacy-and-cookie-policies
+- type: CaseStudies
+  url: https://www.opentrade.io/case-studies
+- type: LLMsTxt
+  url: llms/opentrade-llms.txt
+- type: Lifecycle
+  url: lifecycle/opentrade-lifecycle.yml
+- type: Conformance
+  url: conformance/opentrade-conformance.yml
+- type: Packages
+  url: packages/opentrade-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

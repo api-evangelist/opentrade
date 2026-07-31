@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/opentrade-io/opentrade-examples
+notes: >-
+  OpenTrade publishes no first-party client SDK on npm/PyPI/etc. The only
+  first-party developer code is an examples repository (TypeScript + ethers.js)
+  demonstrating on-chain interaction with the ERC-4626 vault contracts. The npm
+  "@opentrade-registry/*" and PyPI "opentrade" packages are unrelated projects
+  and are NOT included here.
+packages:
+- language: typescript
+  registry: github
+  name: opentrade-examples
+  url: https://github.com/opentrade-io/opentrade-examples
+  install: git clone https://github.com/opentrade-io/opentrade-examples
+  official: true
+  kind: examples
+  description: >-
+    First-party TypeScript example scripts (ethers.js v6) showing how to
+    interact with OpenTrade vault contracts, e.g. withdrawing from a Flexible
+    Term vault. MIT licensed; maintained by Open Trade Technology Ltd.
