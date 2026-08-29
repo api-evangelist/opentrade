@@ -14,6 +14,17 @@ description: >-
   master lending agreements, and FCA-regulated oversight) so partners can deliver
   safe, compliant, scalable yield to KYC'd institutions and businesses. OpenTrade
   is developed by Open Trade Technology Ltd and is backed by Y Combinator.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
