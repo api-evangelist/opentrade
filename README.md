@@ -64,6 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Opentrade is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+OpenTrade is an institutional-grade platform for stablecoin lending and yield products, enabling fintechs, neobanks, crypto exchanges, custodians, stablecoin issuers, and treasury managers to offer white-labeled and embedded yield on USDC, USDT, and EURC without off-ramping. The platform pairs a cloud web application and REST/GraphQL APIs with an on-chain blockchain protocol (a fork of Circle Research's Perimeter, built on the ERC-20 and ERC-4626 standards and deployed on Ethereum, Avalanche, and Plume) that issues yield-bearing vault tokens backed by real-world assets such as money market funds, US Treasury bills, corporate bonds, CLOs, and trade finance. OpenTrade combines this technology with a legal and operational framework (bankruptcy-remote SPVs, master lending agreements, and FCA-regulated oversight) so partners can deliver safe, compliant, scalable yield to KYC'd institutions and businesses. OpenTrade is developed by Open Trade Technology Ltd and is backed by Y Combinator.
 
-Backed by: y-combinator
+**Areas:** Company · Stablecoins · Yield · Lending · Treasury Management · Embedded Finance · Tokenization · Real World Assets · DeFi · Fintech Infrastructure · Blockchain · Fixed Income
+
+## Opentrade on APIs.io
+
+Everything profiled for Opentrade is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/opentrade/](https://apis.io/providers/opentrade/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [OpenTrade REST API](https://apis.io/apis/opentrade/opentrade-rest-api/) — Read-only REST API to query platform data, vaults, accounts, and transactions (current and historical) for building UIs, reporting, and reconciliation with…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Opentrade Domain Security](https://apis.io/security/opentrade/opentrade-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.opentrade.io/)
+- [Documentation](https://docs.opentrade.io/)
+- [Getting started](https://docs.opentrade.io/getting-started/getting-started)
+- [API reference](https://docs.opentrade.io/developers/integrations-apis)
+- [Support](https://www.opentrade.io/contact)
+- [Blog](https://www.opentrade.io/blog)
+- [Terms of service](https://docs.opentrade.io/terms-and-conditions/platform-terms-of-service)
+- [Privacy policy](https://docs.opentrade.io/terms-and-conditions/privacy-and-cookie-policies)
+- [GitHub](https://github.com/opentrade-io)
+- [Status](https://status.opentrade.io/)
+
+## API Evangelist rating
+
+**Kin Score 27.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/opentrade/](https://apis.io/providers/opentrade/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Opentrade: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/opentrade/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
